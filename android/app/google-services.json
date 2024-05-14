@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796049701640",
+    "project_id": "ksrtc-411820",
+    "storage_bucket": "ksrtc-411820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796049701640:android:9f2989b4a4d36a65c88abd",
+        "android_client_info": {
+          "package_name": "com.example.ksrtc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbBS1MTCowJmw1yyA1yzHx7QmXStTMyyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
