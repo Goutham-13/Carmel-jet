@@ -89,7 +89,7 @@ class _LoginScreenState extends State<LoginScreen> {
         // If both phone number and password match, navigate to the next screen
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => BottomNavigationBarLayout()),
+          MaterialPageRoute(builder: (context) => BottomNavigationBarLayout(matchedDocumentId: widget.matchedDocumentId,)),
         );
         return;
       }

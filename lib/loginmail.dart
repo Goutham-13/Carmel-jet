@@ -123,7 +123,7 @@ void initState(){
                    onPressed: _isButtonActive ? () {
                                Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => BottomNavigationBarLayout ()),
+        MaterialPageRoute(builder: (context) => BottomNavigationBarLayout (matchedDocumentId: "123",)),
       );
                   }: null,
                  child: Text('Log In',
